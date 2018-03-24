@@ -1,0 +1,321 @@
+/* Extra small devices - xs (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+
+/* Header Styles Starts */
+
+.main-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	
+/* Top Bar Styles Starts */
+
+	.top-bar {
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+		.top-bar ul {
+			margin-bottom: 10px;
+		}
+
+/* Navigation Styles Starts */
+
+	#nav {
+		padding-left: 0;
+		padding-right: 0;
+	}
+		#nav > .container {
+			max-width: 100%;
+		}
+			#nav .navbar-collapse {
+				padding-top: 10px;	
+				padding-bottom: 10px;
+				border-top: 1px solid #b1b1b1;
+			}
+				#nav .nav-item {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}	
+	
+/* Slider Styles Starts */
+
+	#slider .carousel-caption {
+		bottom: 20px;
+		display: none;
+	}
+	#slider .carousel-indicators {
+		bottom: 10px;
+	}
+	#slider .carousel-caption h2 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+		#slider .carousel-indicators li {
+			margin-left: 2px;
+			margin-right: 2px;
+			width: 8px;
+			height: 8px;
+		}
+	
+/* Intro Section Styles Starts */
+
+	.intro-content {
+		padding-bottom: 50px;
+	}
+		.intro-content h4::after {
+			margin-left: auto;
+			margin-right: auto;
+		}	
+	
+/* Services Section Styles Starts */
+
+	.service-box {
+		margin-bottom: 30px;
+	}	
+	
+/* Testimonial Section Styles Starts */
+
+	.testimonails-section .owl-theme .owl-controls .owl-page span {
+		width: 12px;
+		height: 12px;
+	}
+	
+/* News Section Styles Starts */
+
+	.news-box {
+		margin-bottom: 20px;
+	}	
+	
+/* List Styles Starts */
+
+	.list-style-1 li {
+		font-size: 15px;
+	}
+	.list-style-1 li + li {
+		padding-top: 10px;
+	}
+	.list-style-1 li::before {
+		padding-right: 10px;		
+	}	
+
+/* Generic Styles Starts */
+
+	.d-xs-block {
+		display: block !important;
+	}
+	.d-xs-none {
+		display: none;
+	}
+	.img-center-xs {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.text-xs-left   { text-align: left;   }
+	.text-xs-center { text-align: center; }
+	.text-xs-right  { text-align: right;  }			
+
+}
+
+/* Small devices - sm (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+/* Header Styles Starts */
+
+	.main-header {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+/* Top Bar Styles Starts */
+
+	.top-bar {
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+		.top-bar ul {
+			margin-bottom: 10px;
+		}
+
+/* Navigation Styles Starts */
+
+	#nav {
+		padding-left: 0;
+		padding-right: 0;
+	}
+		#nav > .container {
+			max-width: 100%;
+		}
+			#nav .navbar-collapse {
+				padding-top: 10px;	
+				padding-bottom: 10px;
+				border-top: 1px solid #b1b1b1;
+			}
+				#nav .nav-item {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}		
+	
+/* Slider Styles Starts */
+
+	#slider .carousel-caption h2 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+		#slider .carousel-indicators li {
+			margin-left: 2px;
+			margin-right: 2px;
+			width: 12px;
+			height: 12px;
+		}
+	
+/* Intro Section Styles Starts */
+
+	.intro-content {
+		padding-bottom: 50px;
+	}
+		.intro-content h4::after {
+			margin-left: auto;
+			margin-right: auto;
+		}	
+	
+/* Services Section Styles Starts */
+
+	.service-box {
+		margin-bottom: 30px;
+	}	
+	
+/* Testimonial Section Styles Starts */
+
+	.testimonails-section .owl-theme .owl-controls .owl-page span {
+		width: 12px;
+		height: 12px;
+	}
+	
+/* News Section Styles Starts */
+
+	.news-box {
+		margin-bottom: 20px;
+	}	
+
+/* Generic Styles Starts */
+
+	.img-center-sm {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Medium devices - md (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+/* Header Styles Starts */
+
+	.logo {
+		margin-top: 20px;
+	}
+
+/* Navigation Styles Starts */
+
+	#nav {
+		padding-left: 0;
+		padding-right: 0;
+	}
+		#nav > .container {
+			max-width: 100%;
+		}
+			#nav .navbar-collapse {
+				padding-top: 10px;	
+				padding-bottom: 10px;
+				border-top: 1px solid #b1b1b1;
+			}
+				#nav .nav-item {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}	
+
+/* Slider Styles Starts */
+
+	#slider .carousel-caption {
+		bottom: 30px;
+	}
+	#slider .carousel-indicators {
+		bottom: 0;
+	}
+		#slider h2 {
+			font-size: 36px;
+			line-height: 46px;
+		}
+
+/* Intro Section Styles Starts */
+
+	.intro-content {
+		padding-bottom: 50px;
+	}
+		.intro-content h4::after {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+/* Services Section Styles Starts */
+
+	.service-box {
+		margin-bottom: 40px;
+	}
+
+/* News Section Styles Starts */
+
+	.news-box {
+		margin-bottom: 20px;
+	}	
+	
+/* Generic Styles Starts */
+
+	.img-center-md {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+/* Large devices - lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+/* Navigation Styles Starts */
+
+	#nav .nav-item {
+		float: none;
+	}
+	#nav .nav-item, 
+	#nav .nav-item > a {
+		display: inline-block;
+	}	
+	#nav .nav-item > a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}	
+
+/* Generic Styles Starts */
+
+	.img-center-lg {
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+}
+
+/* Extra large devices - xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Navigation Styles Starts */
+
+	#nav .nav-item {
+		float: none;
+	}
+	#nav .nav-item, 
+	#nav .nav-item > a {
+		display: inline-block;
+	}	
+
+}
